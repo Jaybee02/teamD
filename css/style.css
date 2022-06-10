@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(../img/bgi.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.card{
+    height: 100V !important;
+    
+    
+}
+
+.card-img-top{
+    height: 40vh!important;
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+}
+
+.card-text{
+    list-style: none;
+}
+ul{
+    padding: 0 !important;
+    line-height: 2rem!important;
+}
+
+.lo{
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding: 10px 30px !important;
+    background: indigo !important;
+   
+}
+
+.multi{
+    background-image: linear-gradient(to left, violet, indigo, green, blue, red);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .card-footer{
+    background: violet !important;
+  }
+  .card-body{
+    background-color: violet;
+    /* transition-duration: 350ms;
+    transition-property: background-color; */
+    transition: 1s background ease-in, 500ms transform;
+  }
+   
+  .card-body:hover{
+    background-color:cyan;
+    font-style: italic; 
+  }
+  .card-title,h1{
+    font-weight: 900;
+  }
+  
+
+ 
