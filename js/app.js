@@ -1,7 +1,7 @@
 const demeter =[{
     Names: "OGUNDIPE AJIBIKE",
     image: "img/jb.png",
-    bestFood: "Fried Rice & Chicken",
+    bestFood: "Rice & Chicken",
     complexion: "Chocolate",
     thingsLearnt : ["Html", "CSS", "Boostrap", "JS"],
     bestMovie: "Tezz",
@@ -54,7 +54,7 @@ const demeter =[{
     bestFood: "Egg & Plantain",
     complexion: "light",
     thingsLearnt : ["Html", "CSS", "Boostrap", "JS"],
-    bestMovie: "Coming from America",
+    bestMovie: "Comnando",
     age: "20years",
 },
 
@@ -83,17 +83,17 @@ let row = document.querySelector(".row");
 
 for (k = 0; k < demeter.length; k++){
     let info = `<div class="col-lg-3 col-md-6 col-sm-12">
-        <div class = "card mb-5 jq">
+        <div class = "card mb-5 ">
          <img src="${demeter[k].image}" class="card-img-top" alt="#">
 
             <div class="card-body">
                 <h5 class="card-title multi">${demeter[k].Names}</h5>
                 <ul class="card-text">
-                    <li>${demeter[k].bestFood}</li>
-                    <li>${demeter[k].complexion}</li>
-                    <li>${demeter[k].thingsLearnt}</li>
-                    <li>${demeter[k].bestMovie}</li>
-                    <li>${demeter[k].age}</li>
+                    <li><span class="fw-bold">Best Food : </span>${demeter[k].bestFood}</li>
+                    <li><span class="fw-bold">Complexion : </span>${demeter[k].complexion}</li>
+                    <li><span class="fw-bold">T-Learnt : </span>${demeter[k].thingsLearnt}</li>
+                    <li><span class="fw-bold">Best Movie : </span>${demeter[k].bestMovie}</li>
+                    <li><span class="fw-bold">Age : </span>${demeter[k].age}</li>
                </ul>
             </div>
             <div class="card-footer">

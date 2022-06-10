@@ -50,7 +50,6 @@ ul{
     background-clip: text;
     color: transparent;
   }
-
   .card-footer{
     background: violet !important;
   }
@@ -58,7 +57,7 @@ ul{
     background-color: violet;
     /* transition-duration: 350ms;
     transition-property: background-color; */
-    transition: 1s background ease-in, 500ms transform;
+    transition: 1s background ease-in, 500ms transform 1s;
   }
    
   .card-body:hover{
