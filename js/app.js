@@ -1,6 +1,6 @@
 const demeter =[{
     Names: "OGUNDIPE AJIBIKE",
-    image: "img/jb.png",
+    image: "img/cloth.jpg",
     bestFood: "Rice & Chicken",
     complexion: "Chocolate",
     thingsLearnt : ["Html", "CSS", "Boostrap", "JS"],
